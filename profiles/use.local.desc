@@ -1,0 +1,47 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml. Please add
+# your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+app-editors/l3afpad:emacs - Enable Emacs key theme
+app-text/atril:caja - Enable property page extension in mate-base/mate-file-manager
+app-text/atril:dvi - Enable build-in DVI viewer
+app-text/atril:epub - Enable build-in EPUB viewer
+app-text/atril:gtk3 - Depend on gtk+:3 instead of gtk+:2
+app-text/atril:mate - Depend on mate-base/mate-desktop
+app-text/atril:ps - Enable build-in postscript viewer
+app-text/atril:t1lib - Enable the Type-1 fonts for the build-in DVI viewer (media-libs/t1lib)
+app-text/atril:xps - Enable XPS viewer using app-text/libxps
+lxde-base/lxappearance:gtk3 - Use gtk+:3 instead of gtk+:2
+lxde-base/lxde-common:gtk3 - Use gtk+:3 instead of gtk+:2
+lxde-base/lxde-icon-theme:gtk3 - Use gtk+:3 instead of gtk+:2
+lxde-base/lxinput:gtk3 - Use gtk+:3 instead of gtk+:2
+lxde-base/lxrandr:gtk3 - Use gtk+:3 instead of gtk+:2
+lxde-base/lxsession:clipboard - Build clipboard helper
+lxde-base/lxsession:gtk3 - Use gtk+:3 instead of gtk+:2
+lxde-base/lxsession:polkit-agent - Build LXDE PolicyKit authentification agent
+media-gfx/gpicview:gtk3 - Use gtk+:3 instead of gtk+:2
+www-client/firefox:bindist - Disable official Firefox branding (icons, name) which are not binary-redistributable according to upstream.
+www-client/firefox:custom-optimization - Fine-tune custom compiler optimizations (-Os, -O0, -O1, -O2, -O3)
+www-client/firefox:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles
+www-client/firefox:gtk3 - Use gtk+:3 instead of gtk+:2
+www-client/firefox:minimal - Prevent sdk and headers from being installed
+www-client/firefox:pgo - Add support for profile-guided optimization using gcc-4.5, for faster binaries. This option will double the compile time.
+www-client/firefox:system-cairo - Use the system-wide x11-libs/cairo instead of bundled.
+www-client/firefox:system-icu - Use the system-wide dev-libs/icu instead of bundled.
+www-client/firefox:system-jpeg - Use the system-wide media-libs/libjpeg-turbo instead of bundled.
+www-client/firefox:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled.
+www-client/firefox:system-sqlite - Use the system-wide dev-db/sqlite installation with secure-delete enabled
+x11-libs/libfm:automount - Use gnome-base/gvfs for automounting
+x11-libs/libfm:gtk3 - Use gtk+:3 instead of gtk+:2
+x11-libs/libfm:udisks - Use libfm's udisks-based volume monitor implementation instead of using the one from gvfs
+x11-libs/libfm:vala - Support custom actions in menus
+x11-misc/pcmanfm:gtk3 - Use gtk+:3 instead of gtk+:2
+x11-misc/vala-panel:wnck - Build plugins with libwnck:3 dependency: tasklist, systray, deskno, wincmd, pager, xembed
+x11-misc/vala-panel-appmenu:vala-panel - Build plugin for vala-panel
+x11-misc/vala-panel-appmenu:wnck - Build libwnck:3 support (window switching in application menu).
+x11-misc/vala-panel-appmenu:xfce - Build plugin for xfce4-panel
+x11-misc/vala-panel-extras:gtop - Build network speed binary applet.
+x11-misc/vala-panel-extras:weather - Build weather binary applet.
+x11-misc/vala-panel-extras:xkb - Build keyboard layout binary applet.
+x11-misc/vala-panel-sntray:vala-panel - Build plugin for vala-panel
+x11-misc/vala-panel-sntray:xfce - Build plugin for xfce4-panel
