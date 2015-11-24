@@ -1,0 +1,10 @@
+DEFINED_PHASES=postinst
+DESCRIPTION=Meta ebuild for LXDE, the Lightweight X11 Desktop Environment
+EAPI=2
+HOMEPAGE=http://lxde.sf.net/
+KEYWORDS=~amd64 ~x86
+LICENSE=metapackage
+RDEPEND=>=lxde-base/menu-cache-0.3.3 =lxde-base/lxappearance-0.6* =lxde-base/lxde-icon-theme-0.5* >=lxde-base/lxde-common-0.5.5 =lxde-base/lxmenu-data-0.1* =lxde-base/lxinput-0.3* =lxde-base/lxrandr-0.1* x11-misc/vala-panel >=lxde-base/lxsession-0.5.0 >=x11-libs/libfm-1.2.0 x11-terms/sakura media-gfx/gpicview x11-misc/pcmanfm x11-wm/openbox >=x11-misc/obconf-2.0.3_p20111019
+SLOT=0
+_eclass_exported_funcs=pkg_postinst:-
+_md5_=a1608434505c73b35e4c2116b1ee9bca
