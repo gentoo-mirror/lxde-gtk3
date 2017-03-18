@@ -20,17 +20,6 @@ lxde-base/lxsession:clipboard - Build clipboard helper
 lxde-base/lxsession:gtk3 - Use gtk+:3 instead of gtk+:2
 lxde-base/lxsession:polkit-agent - Build LXDE PolicyKit authentification agent
 media-gfx/gpicview:gtk3 - Use gtk+:3 instead of gtk+:2
-www-client/firefox:bindist - Disable official Firefox branding (icons, name) which are not binary-redistributable according to upstream.
-www-client/firefox:custom-optimization - Fine-tune custom compiler optimizations (-Os, -O0, -O1, -O2, -O3)
-www-client/firefox:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles
-www-client/firefox:gtk3 - Use gtk+:3 instead of gtk+:2
-www-client/firefox:minimal - Prevent sdk and headers from being installed
-www-client/firefox:pgo - Add support for profile-guided optimization using gcc-4.5, for faster binaries. This option will double the compile time.
-www-client/firefox:system-cairo - Use the system-wide x11-libs/cairo instead of bundled.
-www-client/firefox:system-icu - Use the system-wide dev-libs/icu instead of bundled.
-www-client/firefox:system-jpeg - Use the system-wide media-libs/libjpeg-turbo instead of bundled.
-www-client/firefox:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled.
-www-client/firefox:system-sqlite - Use the system-wide dev-db/sqlite installation with secure-delete enabled
 x11-libs/libfm:automount - Use gnome-base/gvfs for automounting
 x11-libs/libfm:gtk3 - Use gtk+:3 instead of gtk+:2
 x11-libs/libfm:udisks - Use libfm's udisks-based volume monitor implementation instead of using the one from gvfs
