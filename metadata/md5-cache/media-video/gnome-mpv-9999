@@ -1,13 +1,12 @@
-DEFINED_PHASES=compile configure install prepare setup unpack
-DEPEND=dev-libs/libdbusmenu:=[gtk3] >=dev-libs/glib-2.38 x11-libs/libX11 x11-libs/gtk+:2 x11-libs/gtk+:3 !x11-misc/appmenu-gtk !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/bzr-2.0.1
-DESCRIPTION=GTK+ module for exporting old-style menus as GMenuModels
+DEFINED_PHASES=postinst postrm preinst prepare unpack
+DEPEND=>=dev-libs/glib-2.30 >=x11-libs/gtk+-3.18:3 x11-libs/libX11 dev-libs/appstream-glib sys-devel/gettext virtual/pkgconfig !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1 >=sys-apps/sed-4
+DESCRIPTION=A GTK+ interface to MPV
 EAPI=5
-HOMEPAGE=https://launchpad.net/unity-gtk-module
-IUSE=python_targets_python2_7
-LICENSE=GPL-3
-RDEPEND=dev-libs/libdbusmenu:=[gtk3]
-RESTRICT=mirror
+HOMEPAGE=https://github.com/gnome-mpv/gnome-mpv/
+KEYWORDS=~alpha ~amd64 ~ppc ~ppc64 ~x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/glib-2.30 >=x11-libs/gtk+-3.18:3 x11-libs/libX11 x11-themes/gnome-icon-theme-symbolic media-video/mpv[libmpv]
 SLOT=0
-_eclass_exported_funcs=pkg_setup:- src_unpack:bzr src_prepare:- src_configure:- src_compile:- src_install:-
-_eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	bzr	87889d0c43a3db7267fb9a58a496797e	epatch	122e1264e67c4f59a1482f2095e0b35d	estack	5ac2a138d0b33354b764d84f9e835db8	eutils	1ef31aee2bd63ffbfcae8a1843c9208d	libtool	48b1b9f6194d2842456514d1184ca72e	ltprune	2770eed66a9b8ef944714cd0e968182e	multibuild	72647e255187a1fadc81097b3657e5c3	multilib	0236be304ee52e7f179ed2f337075515	python-r1	0c067f080a047742ffac024b16895b45	python-utils-r1	4f8aa7196c2c9a5630e66c2113ae46c3	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	versionator	c80ccf29e90adea7c5cae94b42eb76d0
+_eclass_exported_funcs=pkg_preinst:- pkg_postrm:- pkg_postinst:- src_unpack:git-r3 src_prepare:-
+_eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	epatch	122e1264e67c4f59a1482f2095e0b35d	estack	5ac2a138d0b33354b764d84f9e835db8	eutils	1ef31aee2bd63ffbfcae8a1843c9208d	fdo-mime	21ef5adf81836863efa968f2a25cff64	git-r3	68d35a154123e27007638d8220886ee1	gnome2-utils	6d2af8c7ab84825693c3f065a37b923c	libtool	48b1b9f6194d2842456514d1184ca72e	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	versionator	c80ccf29e90adea7c5cae94b42eb76d0	xdg-utils	b9389dfad0ee8f8e0b2a41b79fcf7120
 _md5_=78d80b987e2b11c500c4e44595db863a
