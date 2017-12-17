@@ -1,23 +1,9 @@
 app-editors/l3afpad 0.8.18.1.10: A simple GTK2 text editor
-app-text/atril 9999: Atril document viewer for MATE
 lxde-base/lxappearance 0.6.1: LXDE GTK+ theme switcher
-lxde-base/lxappearance-obconf 0.2.1: LXAppearance plugin for configuring OpenBox
 lxde-base/lxde-common 0.99.0: LXDE Session default configuration files and nuoveXT2 iconset
 lxde-base/lxde-icon-theme 0.5.0 0.5.0-r1: nuoveXT2 iconset
-lxde-base/lxde-meta 9999 9999-r1: Meta ebuild for LXDE, the Lightweight X11 Desktop Environment
 lxde-base/lxinput 0.3.2: LXDE keyboard and mouse configuration tool
 lxde-base/lxrandr 0.1.2: LXDE GUI interface to RandR extention
-lxde-base/lxsession 0.5.2: LXDE session manager (lite version)
-lxde-base/menu-cache 1.0.0 1.0.0-r1: A library creating and utilizing caches to speed up freedesktop.org application menus
+lxde-base/menu-cache 1.0.0: A library creating and utilizing caches to speed up freedesktop.org application menus
 media-gfx/gpicview 0.2.4: A Simple and Fast Image Viewer for X
-media-video/gnome-mpv 9999: A GTK+ interface to MPV
-unity-base/unity-gtk-module 9999: GTK+ module for exporting old-style menus as GMenuModels
-x11-libs/bamf 9999: BAMF Application Matching Framework
-x11-libs/libfm 9999: A library for file management
-x11-libs/libfm-extra 9999: A library for file management
-x11-misc/obconf 2.0.3_p20111019 2.0.4 9999: ObConf is a tool for configuring the Openbox window manager
-x11-misc/pcmanfm 9999: Fast lightweight tabbed filemanager
-x11-misc/vala-panel 9999: Lightweight desktop panel
-x11-misc/vala-panel-appmenu 9999: Global Menu plugin for xfce4 and vala-panel
-x11-misc/vala-panel-extras 9999: Small StatusNotifier binaries
-x11-misc/vala-panel-sntray 9999: StatusNotifierWatcher for xfce4 and vala-panel
+x11-misc/obconf 2.0.3_p20111019: ObConf is a tool for configuring the Openbox window manager
