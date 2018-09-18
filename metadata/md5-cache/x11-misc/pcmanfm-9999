@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=>=dev-libs/glib-2.18:2 gtk3? ( >=x11-libs/gtk+-3.0:3 ) !gtk3? ( >=x11-libs/gtk+-2.16:2 ) >=lxde-base/menu-cache-0.3.2 >=x11-libs/libfm-9999:=[gtk3=] virtual/eject virtual/freedesktop-icon-theme
 RESTRICT=test
 SLOT=0
-_eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	fdo-mime	995b19d3f30e956b4e1bc5a91fdc4ea7	git-r3	918d6a744039c29af2cadc7317459765	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	e4a9360924c5ce9f52e61342cde58512
+_eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	fdo-mime	995b19d3f30e956b4e1bc5a91fdc4ea7	git-r3	0d4635eeb5a96cd5315597a47eba25c9	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	e4a9360924c5ce9f52e61342cde58512
 _md5_=b72b4343937e58c4fe50670b733357d7
