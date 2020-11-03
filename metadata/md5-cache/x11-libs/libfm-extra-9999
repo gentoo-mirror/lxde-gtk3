@@ -8,5 +8,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=>=dev-libs/glib-2.18:2
 SLOT=0/4.3.0
-_eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	fdo-mime	995b19d3f30e956b4e1bc5a91fdc4ea7	git-r3	3e7ec3d6619213460c85e2aa48398441	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	98584e405e2b0264d37e8f728327fed1	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	fdo-mime	c75d63b2ad86f659c6d8f9d4966f7f7e	git-r3	3e7ec3d6619213460c85e2aa48398441	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	98584e405e2b0264d37e8f728327fed1	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
 _md5_=bdf860a4fbba39d0e4216018bff0d068
